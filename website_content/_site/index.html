@@ -36,9 +36,6 @@
 <meta property="og:title" content="Mitesh M. Khapra">
 
 
-  <link rel="canonical" href="http://localhost:4000/">
-  <meta property="og:url" content="http://localhost:4000/">
-
 
 
 
@@ -77,7 +74,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Mitesh M. Khapra",
-      "url" : "http://localhost:4000",
+      "url" : null,
       "sameAs" : null
     }
   </script>
@@ -91,7 +88,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Mitesh M. Khapra Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mitesh M. Khapra Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,8 +100,8 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> 
+<link rel="stylesheet" href="./assets/css/main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 <!--[if lte IE 9]>
   <style>
@@ -140,8 +137,17 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="http://localhost:4000/">Mitesh M. Khapra</a>
+        <a class="site-title" href="./index.html">Mitesh M. Khapra</a>
         <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="./teaching/index.html">Teaching</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="./publications/index.html">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="./students/index.html">Students</a></li>
           
         </ul>
         <button type="button">
@@ -168,7 +174,7 @@
   
     <div class="author__avatar">
       
-        <img src="http://localhost:4000/assets/images/fac.jpg" class="author__avatar" alt="Mitesh M. Khapra" itemprop="image">
+        <img src="./assets/images/fac.jpg" class="author__avatar" alt="Mitesh M. Khapra" itemprop="image">
       
     </div>
   
@@ -221,6 +227,12 @@
 
       
 
+      
+        <li>
+          <a href="https://github.com/iitm-nlp-miteshk" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
       
 
       
@@ -280,6 +292,59 @@ Mitesh M. Khapra has recently joined the Department of Computer Science and Engi
 
 <p align="justify">Prior to that he worked as a Researcher at IBM Research India. During the four and half years that he spent at IBM he worked on several interesting problems in the areas of Statistical Machine Translation, Cross Language Learning, Multimodal Learning, Argument Mining and Deep Learning. This work led to publications in top conferences in the areas of Computational Linguistics and Machine Learning. Prior to IBM, he completed his PhD and M.Tech from IIT Bombay in Jan 2012 and July 2008 respectively. His PhD. thesis dealt with the important problem of reusing resources for multilingual computation.</p>
 
+<br>
+<h4> Research Interests </h4>
+<br>
+
+<div class="row">
+  <div class="col">
+    <div class="card" style="width: 20rem;">
+      <div class="card-block">
+	    <h4 class="card-title">Dialog Systems</h4>
+	    <p class="card-text"><p>Dialog Systems research</p>
+        </p>
+	    <a href="./research/dialog/index.html" class="btn btn-primary">Dialog Systems</a>
+   	  </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 20rem;">
+      <div class="card-block">
+	    <h4 class="card-title">Mutlilingual</h4>
+	    <p class="card-text"><p>Multilingual</p>
+        </p>
+	    <a href="./research/multilingual/index.html" class="btn btn-primary">Mutlilingual</a>
+	 </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col">
+    <div class="card" style="width: 20rem;">
+      <div class="card-block">
+	    <h4 class="card-title">Natural Language Generation</h4>
+	    <p class="card-text"><p>NLG Research</p>
+        </p>
+	    <a href="./research/nlg/index.html" class="btn btn-primary">Natural Language Generation</a>
+	  </div>
+    </div>
+  </div>
+  <div class="col">
+   <div class="card" style="width: 20rem;">
+    <div class="card-block">
+	    <h4 class="card-title">Question Answering</h4>
+	    <p class="card-text"><p>Question Answering Systems research</p>
+        </p>
+	    <a href="./research/qa/index.html" class="btn btn-primary">Question Answering</a>
+	</div>
+   </div>
+  </div>
+</div>
+
+
   </div>
 </div>
 
@@ -291,22 +356,28 @@ Mitesh M. Khapra has recently joined the Department of Computer Science and Engi
         <div class="page__footer-follow">
   <ul class="social-icons">
     
+      <li><strong>Follow:</strong></li>
     
     
     
     
+      <li><a href="https://github.com/iitm-nlp-miteshk"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     
-    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    
+    <li><a href="/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
 <div class="page__footer-copyright">&copy; 2018 Mitesh M. Khapra. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 
       </footer>
     </div>
 
     
-  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="./assets/js/main.min.js"></script>
 
 
 

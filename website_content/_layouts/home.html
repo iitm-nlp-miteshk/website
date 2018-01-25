@@ -14,3 +14,15 @@ layout: archive
 Mitesh M. Khapra has recently joined the Department of Computer Science and Engineering as an Assistant Professor. While at IIT Madras he plans to pursue his interests in the areas of Deep Learning, Multimodal Multilingual Processing and Question Answering. </p>
 
 <p align="justify">Prior to that he worked as a Researcher at IBM Research India. During the four and half years that he spent at IBM he worked on several interesting problems in the areas of Statistical Machine Translation, Cross Language Learning, Multimodal Learning, Argument Mining and Deep Learning. This work led to publications in top conferences in the areas of Computational Linguistics and Machine Learning. Prior to IBM, he completed his PhD and M.Tech from IIT Bombay in Jan 2012 and July 2008 respectively. His PhD. thesis dealt with the important problem of reusing resources for multilingual computation.</p>
+
+<h2> Research Interests </h2>
+{% for area in site.research %}
+<div class="card" style="width: 20rem;">
+    <div class="card-block">
+	    <h4 class="card-title">{{ area.area_name }}</h4>
+	    <p class="card-text">{{ area.excerpt }}</p>
+	    <a href="{{ area.url }}" class="btn btn-primary">{{ area.area_name }}</a>
+	</div>
+</div>
+{% endfor %}
+
